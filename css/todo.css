@@ -1,0 +1,215 @@
+@font-face {
+    font-family: Blacksword; /* Имя шрифта */
+    src: url(../fonts/Blacksword.otf); /* Путь к файлу со шрифтом */
+   }
+
+
+
+button:enabled {
+    border: none !important;
+}
+
+.cross {
+    text-decoration: line-through;
+    color: crimson !important;
+}
+h1 {
+   
+}
+
+header {
+    background-color: #729FBF;
+    font-family: Blacksword;
+    text-align: center;
+    line-height: 36;
+}
+
+header h1 {
+     margin: 0 !important;
+    line-height: 60px;
+    color: azure;
+    transition: all .4s
+}
+
+header h1:hover {
+    cursor: default;
+    text-shadow: 0 0 15px #F9C366;
+}
+
+
+
+.to-do {
+    padding: 50px 0;
+}
+
+.to-do-container {
+/*    background-color: #7592A3;*/
+    text-align: center;
+}
+
+.to-do-list {
+    padding: 0;
+}
+
+.to-do-li {
+    display: block;
+    padding: 30px 100px 30px 30px;
+    background-color: #A6D2EA;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    transition: all .3s;
+    position: relative;
+    color: #6C8199;
+}
+.to-do-li:hover {
+    transform: translateY(-10px);
+    box-shadow: -1px 1px 10px #586D7A;
+}
+
+
+.buttons {
+    position: absolute;
+    right: 15px;
+    top: 24px;
+}
+
+.buttons button {
+    background-color: inherit;
+    border: none;
+    font-size: 27px;
+}
+.buttons button:active {
+    border: none !important;
+}
+
+
+.fa-trash-o {
+    color: #E53939;
+}
+
+.fa-check {
+    color: #3AB231;
+    
+}
+
+
+.add-task {
+    background-color: #729FBF;
+    border: none;
+    height: 60px;
+    width: 60px;
+    display: block;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    box-shadow: 3px 2px 9px #7592A3;
+    transition: all .4s;
+}
+
+.add-task:hover {
+    box-shadow: -3px 0px 9px #405059;
+}
+
+
+
+
+
+.hide-form {
+    position: fixed;
+    padding: 15px;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+    height: 100%;
+    z-index: 110;
+    display: none;
+}
+
+.add-form {
+    max-width: 600px;
+    margin: 15% auto;
+    background-color: #6A8493;
+    border-radius: 5px;
+    padding: 30px 10px;
+    position: relative;
+
+}
+
+#new-note, .add-note {
+    display: block;
+    margin: 10px auto;
+    border: none;
+    border-radius: 5px;
+}
+
+#new-note {
+    max-width: 400px;
+    width: 100%;
+    background-color: #729FBF;
+    height: 40px;
+    padding: 0 10px;
+    
+    color: #fff !important;
+}
+
+.add-note{
+    height: 40px;
+    width: 110px;
+    background-color: #729FBF ;
+    margin-top: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*#3AB231*/
+
+
+.close-bt {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.completed-container {
+    margin-top: 80px;
+    text-align: center;
+/*    border-top: 1px solid #F64740;*/
+}
+.completed-list {
+    padding: 0;
+}
+.completed-container h3 {
+    font-family: Blacksword;
+    color: crimson;
+    text-align: center;
+}
+
+.fa-chevron-down {
+    color: crimson;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

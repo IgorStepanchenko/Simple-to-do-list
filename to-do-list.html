@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To do list</title>
+    <link rel="stylesheet" href="css/todo.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-12">
+                        <h1>Create your plans</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="to-do">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="to-do-container">
+                            <ul class="to-do-list">
+                                <li class="to-do-li">To buy some bread, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, nulla.
+                                    <div class="buttons">
+                                        <button class="delete"><i class="fa fa-trash-o" ></i></button>
+                                        <button class="completed"><i class="fa fa-check" aria-hidden="true"></i></button>
+                                    </div>
+                                </li>
+                                <li class="to-do-li">Read favorit book 
+                                    <div id="buttons" class="buttons">
+                                        <button class="delete"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                                        <button class="completed"><i class="fa fa-check" aria-hidden="true"></i></button>
+                                    </div>
+                                </li>
+                                <li class="to-do-li">Kiss the cat
+                                    <div class="buttons">
+                                        <button class="delete"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                                        <button class="completed"><i class="fa fa-check" aria-hidden="true"></i></button>
+                                    </div>
+                                </li>
+                                <li class="to-do-li">Go to bed
+                                    <div class="buttons">
+                                        <button class="delete"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                                        <button class="completed"><i class="fa fa-check" aria-hidden="true"></i></button>
+                                    </div>
+                                </li>
+                                <li class="to-do-li">Work hard
+                                    <div class="buttons">
+                                        <button class="delete"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                                        <button class="completed"><i class="fa fa-check" aria-hidden="true"></i></button>
+                                    </div>
+                                </li>
+                                <li class="to-do-li">Go out with friends
+                                    <div class="buttons">
+                                        <button class="delete"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                                        <button class="completed"><i class="fa fa-check" aria-hidden="true"></i></button>
+                                    </div>
+                                </li>
+                                <li class="to-do-li">I should meet sister in the airport
+                                    <div class="buttons">
+                                        <button class="delete"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                                        <button class="completed"><i class="fa fa-check" aria-hidden="true"></i></button>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="completed-container">
+                           <h3>Completed tasks</h3>
+                           <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                            <ul class="completed-list">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="hide-form">
+                    <form class="add-form">
+                        <span class="close-bt"><i class="fa fa-times-circle" aria-hidden="true"></i></span>
+                        <input id="new-note" type="text" placeholder="Write note" required>
+                        <button class="add-note">Add note</button>
+                    </form>
+                </div>
+            </div>
+            <button class="add-task"><i class="fa fa-plus" aria-hidden="true"></i></button>
+        </section>
+    </div>   
+    <script src="libs/jquery/dist/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>

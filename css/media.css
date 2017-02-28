@@ -1,0 +1,14 @@
+@media screen and (max-width: 560px) {
+    .to-do-li {
+        font-size: 15px;
+        padding: 30px 70px 30px 15px;
+    }
+    
+    .buttons {
+        right: 10px;
+    }
+    
+    .buttons button {
+        padding: 0;
+    }
+}
